@@ -1,0 +1,39 @@
+body {
+    background-image: url("4.jpg");
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_box {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    display: block;
+    align-items: center;
+    width:30%;
+}
+
+.title {
+    color:white;
+    text-align: center;
+}
+
+.content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    height: auto;
+}
+
+.description {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text {
+    color: white;
+}
