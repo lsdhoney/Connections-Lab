@@ -71,7 +71,7 @@ canvas {
 
 .btn {
    position: absolute;
-   bottom: 160px;
+   bottom: 100px;
    left: 50%;
    transform: translate(-50%,-50%);
 
