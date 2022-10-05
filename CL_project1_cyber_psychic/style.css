@@ -1,0 +1,79 @@
+
+@font-face {
+    font-family: 'gothic'; /*a name to be used later*/
+    src: url('font/gothicPixels.ttf'); /*URL to font*/
+}
+
+@font-face {
+    font-family: 'nintendo'; /*a name to be used later*/
+    src: url('font/Nintendo-DS-BIOS.ttf'); /*URL to font*/
+}
+
+
+body {  
+    background-image: url("media/bg.png");
+    background-color: black;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+.project_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+#madame {
+    font-family: 'gothic';
+    color:#f0f6f0;
+}
+
+.text {
+    font-family: 'nintendo';
+    font-size: 20px;
+    color:#f0f6f0;
+}
+
+
+.button {
+    background-color: black;
+    border: 1px solid #f0f6f0; 
+    padding: 2px 2px;
+    border-radius: 4px;
+    color: #f0f6f0;
+    text-align: center;
+    font-family: 'nintendo';
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+}
+
+
+
+canvas {
+    display: block;
+    margin:-50px auto;
+    z-index: -1;
+}
+
+
+.btn {
+   position: absolute;
+   bottom: 160px;
+   left: 50%;
+   transform: translate(-50%,-50%);
+
+   
+}
